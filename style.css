@@ -1,0 +1,167 @@
+.logo img {
+
+    width: 140px;
+}
+
+.logo {
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+
+
+}
+
+.svg {
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 120px;
+    font-size: 12px;
+}
+
+ul li {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+
+}
+
+ul li span {
+    padding: 0px 4px;
+}
+
+li img {
+    height: 20px;
+    width: 20px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 57px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    gap: 15px;
+}
+
+section span {
+    font-size: 39px;
+}
+
+section span img {
+    width: 90px;
+}
+
+p {
+    width: 49vw;
+    text-align: center;
+    font-weight: 400;
+    font-size: 19px;
+
+}
+
+section div button {
+    padding: 12px 20px;
+    border: none;
+    color: white;
+    background-color: #00b6d1;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+
+
+}
+
+.download :nth-child(2) {
+    font-size: 24px;
+}
+
+.download {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.download img {
+    width: 50px;
+    padding: 0px 10px;
+}
+
+.second {
+    text-align: center;
+    max-width: 50vw;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.item {
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    padding: 16px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #5cb85c;
+    font-size: 9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.lang {
+    padding-bottom: 40px;
+    font-weight: 500;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.link1 {
+    font-size: 8.5px;
+    padding-top: 10px;
+}
+
+.link2 {
+    font-size: 6px;
+}
+
+@media screen and (max-width:1100px) {
+    .grid {
+        grid-template-columns: 1fr;
+
+    }
+}
+a{
+    text-decoration: none;
+    color: white;
+}
